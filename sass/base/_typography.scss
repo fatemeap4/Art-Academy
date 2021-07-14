@@ -1,0 +1,56 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: $color-white;
+}
+
+.heading-primary{
+    font-size: 8rem;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1rem;
+}
+
+
+.heading-secondary{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.paragraph{
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+.heading-top{
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    letter-spacing: .3rem;
+}
+
+.box-number{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    & .span-number{
+        font-size: 20rem;
+        font-weight: 400;
+    }
+}
+
+.text-box{
+    & > :not(p){
+        padding-bottom: 1rem;
+    }
+}

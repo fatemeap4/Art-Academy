@@ -1,0 +1,72 @@
+.deciplines__card{
+    flex: 50%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    
+
+    &>*{
+        padding-left: 10rem;
+    }
+    
+    &-1{
+        background-color: rgba(241, 34, 38,.9);
+
+        & h3{
+            background-color: $color-light-blue;
+            padding: 1rem 1rem 1rem 10rem;
+            display: inline-block;
+        }
+        & span{
+            color:  $color-light-blue;
+        }
+    }
+
+    &-2{
+        background-image: url(../img/img-3.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        & h3{
+            color: $color-black;
+            background-color: $color-white;
+            padding: 1rem 1rem 1rem 10rem;
+            display: inline-block;
+        }
+
+    }
+
+    &-3{
+        background-image: url(../img/img-4.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        & h3{
+            color:$color-black;
+            background-color: $color-white;
+            padding: 1rem 1rem 1rem 10rem;
+            display: inline-block;
+        }
+    }
+
+    &-4{
+        background-color: $color-light-blue;
+
+        & h3{
+            background-color:  rgba(241, 34, 38,.9);
+            padding: 1rem 1rem 1rem 10rem;
+            display: inline-block;
+        }
+
+        & span{
+            color: rgba(241, 34, 38,.9);
+        }
+    }
+
+    & .span-arrow{
+        font-size: 9rem;
+        font-weight: 400;
+        
+    }
+}

@@ -1,0 +1,25 @@
+.social-networks{
+    display: flex;
+
+    &>*{
+        padding: 2rem;
+        margin-right: .7rem;
+    }
+
+    &__facebook{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        margin-right: 7px ;
+        background-image: url(../img/svg/facebook-logo.svg);
+
+    }
+    &__twitter{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        margin-right: 7px ;
+        background-image: url(../img/svg/twitter-social-logotype.svg);
+
+    }
+}
